@@ -3,42 +3,25 @@
   list-style-type: none;
   text-decoration: none;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 2;
-  background-color: #efefef;
-}
-.headerPortion{
-  height: 15vh;
-  color: #900C3F;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-family: reckoner;
-}
-.mainSection {
-  height: auto;
-  width: 80vw;
-  position: relative;
-  font-family: adam;
-  left: 0px;
-  background-color: #EFFF06;
-}
-nav{
-  background-color: #EFFF06;
-  width: 10vw;
-  height: 10vh;
-  padding: 15px;
-  font-size: 1.2em;
-  right: 10px;
-}
-#navLinks {
-  text-decoration: none;
-  list-style-type: none;
-}
+@media only screen and (max-width: 360px){
 
-.offer {
-  background-color: #C70039;
+  body{
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
+  }
+  .aboutInfo{
+    background-color: red;
+    padding: 3vh 2vw;
+  }
+  .otherInfo{
+    background-color: yellow;
+    padding: 3vh 2vw;
+  }
+  .contactInfo{
+    background-color: green;
+    padding: 3vh 2vw;
+
+  }
+
 }
