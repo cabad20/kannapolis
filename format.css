@@ -22,7 +22,8 @@
   .contactInfo{
     background-color: green;
     padding: 3vh 2vw;
-
   }
-
+  .rollOut{
+    height: 10vh;
+  }
 }
